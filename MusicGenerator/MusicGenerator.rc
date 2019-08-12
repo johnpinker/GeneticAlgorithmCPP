@@ -1,0 +1,299 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\MusicGenerator.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MusicGenerator.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About MusicGenerator"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MusicGenerator Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_MUSICGENERATOR_DIALOG DIALOGEX 0, 0, 467, 302
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MusicGenerator"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_LOGWIN,7,226,453,69,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+    PUSHBUTTON      "Run 10 Generations",IDC_BRUN,379,28,81,14
+    PUSHBUTTON      "Export to File",IDC_BEXPORT,395,207,50,14
+    GROUPBOX        "GA Parameters",IDC_STATIC,7,7,453,55
+    LTEXT           "Population Size",IDC_STATIC,14,18,49,8
+    EDITTEXT        IDC_POPSIZE,66,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "Crossover Rate",IDC_STATIC,14,32,51,8
+    EDITTEXT        IDC_CROSSRATE,66,29,40,14,ES_AUTOHSCROLL
+    LTEXT           "Mutation Rate",IDC_STATIC,14,46,46,8
+    EDITTEXT        IDC_MUTRATE,66,43,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Start GA",IDC_BRESTART,379,12,81,14
+    PUSHBUTTON      "Exit",IDC_BEXIT,379,44,81,14
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,7,64,453,140
+    LTEXT           "Resolution:",IDC_STATIC,122,17,36,8
+    EDITTEXT        IDC_RESOLUTION,163,15,40,14,ES_AUTOHSCROLL
+    CONTROL         "Include Difference in Stats",IDC_DIFFERENCE,"Button",
+                    BS_AUTORADIOBUTTON,225,16,101,10
+END
+
+IDD_DRUMFITNESSDLG DIALOGEX 0, 0, 447, 123
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "Kick On Even Beats:",IDC_STATIC,19,43,67,8
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,89,39,100,15
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,90,59,100,15
+    LTEXT           "Snare On Odd Beats:",IDC_STATIC,19,62,68,8
+    GROUPBOX        "Weight Values",IDC_STATIC,7,28,431,88
+    CONTROL         "",IDC_SLIDER3,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,90,78,100,15
+    LTEXT           "Num Cymbal Notes:",IDC_STATIC,20,81,63,8
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,90,95,100,15
+    LTEXT           "Num Perc Notes:",IDC_STATIC,20,99,55,8
+    CONTROL         "",IDC_SLIDER5,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,299,35,100,15
+    LTEXT           "Accent Snare:",IDC_STATIC,229,40,46,8
+    CONTROL         "",IDC_SLIDER6,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,300,53,100,15
+    LTEXT           "Accent Kick:",IDC_STATIC,230,58,42,8
+    CONTROL         "",IDC_SLIDER7,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,300,72,100,15
+    LTEXT           "Accent Closed Hats:",IDC_STATIC,230,77,66,8
+    LTEXT           "These slider represent weights in the range of 0,99",
+                    IDC_STATIC,209,11,183,10
+    LTEXT           "Adjust the weights to adjust the finess calulations.",
+                    IDC_STATIC,209,21,208,10
+END
+
+IDD_BASSFITNESSDIALOG DIALOGEX 0, 0, 447, 123
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Weight Values",IDC_STATIC,7,29,433,87
+    LTEXT           "Number of Notes:",IDC_STATIC,15,45,58,8
+    CONTROL         "",IDC_NUMNOTESSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,83,43,100,15
+    LTEXT           "Favor Consonance:",IDC_STATIC,15,62,64,8
+    CONTROL         "",IDC_CONSSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,83,60,100,15
+    LTEXT           "Favor Disonance:",IDC_STATIC,15,81,57,8
+    CONTROL         "",IDC_DISSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,83,79,100,15
+    LTEXT           "These slider represent weights in the range of 0,99",
+                    IDC_STATIC,209,11,183,10
+    LTEXT           "Adjust the weights to adjust the finess calulations.",
+                    IDC_STATIC,209,21,208,10
+    CONTROL         "Major Key?",IDC_MAJORCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,228,43,51,10
+    LTEXT           "Accent Even Notes:",IDC_STATIC,228,62,65,8
+    CONTROL         "",IDC_EVENACCENTSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,296,59,100,15
+    LTEXT           "Accent Odd Notes:",IDC_STATIC,228,80,62,8
+    CONTROL         "",IDC_ODDACCENTSLIDER,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,296,77,100,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "John Pinkerton"
+            VALUE "FileDescription", "Genetic Composition Tool"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "MusicGenerator.exe"
+            VALUE "LegalCopyright", "(c) 2004 John Pinkerton.  All rights reserved."
+            VALUE "OriginalFilename", "MusicGenerator.exe"
+            VALUE "ProductName", "MusicGenerator"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MUSICGENERATOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 460
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_DRUMFITNESSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 438
+        VERTGUIDE, 419
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_BASSFITNESSDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        VERTGUIDE, 440
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\MusicGenerator.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About MusicGenerator..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\MusicGenerator.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

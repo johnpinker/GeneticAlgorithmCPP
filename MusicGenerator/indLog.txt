@@ -1,0 +1,130 @@
+Best individual for generation 1
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 44, Velocity 32, Location 1, Length 1
+Note 4: Value 38, Velocity 32, Location 2, Length 1
+Note 5: Value 46, Velocity 127, Location 2, Length 1
+Note 6: Value 36, Velocity 127, Location 2, Length 1
+Note 7: Value 38, Velocity 127, Location 3, Length 1
+Note 8: Value 36, Velocity 64, Location 3, Length 1
+Note 9: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 2
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 44, Velocity 32, Location 1, Length 1
+Note 4: Value 38, Velocity 32, Location 2, Length 1
+Note 5: Value 46, Velocity 127, Location 2, Length 1
+Note 6: Value 36, Velocity 127, Location 2, Length 1
+Note 7: Value 38, Velocity 127, Location 3, Length 1
+Note 8: Value 36, Velocity 64, Location 3, Length 1
+Note 9: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 3
+Note 0: Value 44, Velocity 64, Location 1, Length 1
+Note 1: Value 38, Velocity 32, Location 1, Length 1
+Note 2: Value 44, Velocity 127, Location 1, Length 1
+Note 3: Value 38, Velocity 32, Location 2, Length 1
+Note 4: Value 46, Velocity 127, Location 2, Length 1
+Note 5: Value 36, Velocity 127, Location 2, Length 1
+Note 6: Value 38, Velocity 127, Location 3, Length 1
+Note 7: Value 36, Velocity 64, Location 3, Length 1
+Note 8: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 4
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 44, Velocity 64, Location 1, Length 1
+Note 4: Value 38, Velocity 32, Location 1, Length 1
+Note 5: Value 44, Velocity 127, Location 1, Length 1
+Note 6: Value 38, Velocity 32, Location 2, Length 1
+Note 7: Value 46, Velocity 127, Location 2, Length 1
+Note 8: Value 36, Velocity 127, Location 2, Length 1
+Note 9: Value 38, Velocity 127, Location 3, Length 1
+Note 10: Value 36, Velocity 64, Location 3, Length 1
+Note 11: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 5
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 44, Velocity 64, Location 1, Length 1
+Note 4: Value 38, Velocity 32, Location 1, Length 1
+Note 5: Value 44, Velocity 127, Location 1, Length 1
+Note 6: Value 38, Velocity 32, Location 2, Length 1
+Note 7: Value 46, Velocity 127, Location 2, Length 1
+Note 8: Value 36, Velocity 127, Location 2, Length 1
+Note 9: Value 38, Velocity 127, Location 3, Length 1
+Note 10: Value 36, Velocity 64, Location 3, Length 1
+Note 11: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 6
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 44, Velocity 64, Location 1, Length 1
+Note 4: Value 38, Velocity 32, Location 1, Length 1
+Note 5: Value 44, Velocity 127, Location 1, Length 1
+Note 6: Value 38, Velocity 32, Location 2, Length 1
+Note 7: Value 46, Velocity 127, Location 2, Length 1
+Note 8: Value 36, Velocity 127, Location 2, Length 1
+Note 9: Value 38, Velocity 127, Location 3, Length 1
+Note 10: Value 36, Velocity 64, Location 3, Length 1
+Note 11: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 7
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 44, Velocity 64, Location 1, Length 1
+Note 4: Value 38, Velocity 32, Location 1, Length 1
+Note 5: Value 44, Velocity 127, Location 1, Length 1
+Note 6: Value 38, Velocity 32, Location 2, Length 1
+Note 7: Value 46, Velocity 127, Location 2, Length 1
+Note 8: Value 36, Velocity 127, Location 2, Length 1
+Note 9: Value 38, Velocity 127, Location 3, Length 1
+Note 10: Value 36, Velocity 64, Location 3, Length 1
+Note 11: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 8
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 38, Velocity 64, Location 1, Length 1
+Note 4: Value 44, Velocity 127, Location 1, Length 1
+Note 5: Value 38, Velocity 32, Location 2, Length 1
+Note 6: Value 46, Velocity 127, Location 2, Length 1
+Note 7: Value 36, Velocity 127, Location 2, Length 1
+Note 8: Value 38, Velocity 127, Location 3, Length 1
+Note 9: Value 36, Velocity 64, Location 3, Length 1
+Note 10: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 9
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 38, Velocity 64, Location 1, Length 1
+Note 4: Value 44, Velocity 127, Location 1, Length 1
+Note 5: Value 38, Velocity 32, Location 2, Length 1
+Note 6: Value 46, Velocity 127, Location 2, Length 1
+Note 7: Value 36, Velocity 127, Location 2, Length 1
+Note 8: Value 38, Velocity 127, Location 3, Length 1
+Note 9: Value 36, Velocity 64, Location 3, Length 1
+Note 10: Value 44, Velocity 64, Location 3, Length 1
+
+Best individual for generation 10
+Note 0: Value 38, Velocity 64, Location 0, Length 1
+Note 1: Value 36, Velocity 32, Location 0, Length 1
+Note 2: Value 38, Velocity 64, Location 0, Length 1
+Note 3: Value 38, Velocity 64, Location 1, Length 1
+Note 4: Value 44, Velocity 127, Location 1, Length 1
+Note 5: Value 38, Velocity 32, Location 2, Length 1
+Note 6: Value 46, Velocity 127, Location 2, Length 1
+Note 7: Value 36, Velocity 127, Location 2, Length 1
+Note 8: Value 38, Velocity 127, Location 3, Length 1
+Note 9: Value 36, Velocity 64, Location 3, Length 1
+Note 10: Value 44, Velocity 64, Location 3, Length 1
+
